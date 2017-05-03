@@ -9,34 +9,102 @@
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster|Tangerine|Inconsolata|Droid+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster|Tangerine|Bitter">
 </head>
 <body>
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Portfolio page</a>
+        <div class="col-xs-10 col-md-9 col-xs-offset-1 col-md-offset-1">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" id="logo-text">Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#">about</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
         </div>
-        <ul class="nav navbar-nav pull-right">
-            <li><a href="#">about</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">contact</a></li>
-        </ul>
     </div>
 </nav>
 <div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="well">
-                <div class="col-md-8">
-                <h4>Front-End Developer and UX/UI designer, with practical experience <br>in project management, branding strategy, and creative direction;<br> devoted to functional programming and information architecture.<br></h4>
-                </div>
-                <div class="col-md-2">
-                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/088/0ef/2f4b072.png" alt="Headshot" id="headshot">
+    <section id="about">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 ">
+                <div class="well well-lg">
+                    <div class="col-xs-8 col-md-8">
+                        <h4>Front-End Developer and UX/UI designer, with practical experience <br>in project management, branding strategy, and creative direction;<br> devoted to functional programming and information architecture.<br></h4>
+                        <hr class="star-light">
+                        <span class="intro-text">Web Developer - User Experience Designer - Graphic Artist</span>
+                    </div>
+                    <div class="col-xs-8 col-md-2 col-xs-offset-1 col-md-offset-1">
+                        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/088/0ef/2f4b072.png" alt="Headshot" id="headshot">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <br>
+    <section id="portfolio">
+        <div class="well">
+            <h2 class="text-center" id="section-header">PORTFOLIO</h2>
+        </div>
+        <div class="row">
+            <div class="">
+            <div class="col-md-6">
+                <a href="#" class="thumbnail"><img src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg"></a>
+                <a href="#" class="thumbnail"><img src="http://qlip.in/images/webmarqas.jpg"></a>
+                <a href="#" class="thumbnail"><img src="http://qlip.in/images/panacea1.jpg"></a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="thumbnail"><img src="http://qlip.in/images/webcaballero.jpg"></a>
+                <a href="#" class="thumbnail"><img src="http://qlip.in/images/webbrandaxis.jpg"></a>
+                <a href="#" class="thumbnail"><img src="http://qlip.in/images/webgatomalo.jpg"></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="well">
+            <h2 class="text-center" id="section-header">CONTACT</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                <div class="input-group">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-user"></i> </span>
+                    <input type="text" class="form-control" placeholder="name" aria-describedby="sizing-addon1">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon" id="sizing-addon2">@</span>
+                    <input type="text" class="form-control" placeholder="email" aria-describedby="sizing-addon2">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon" id="sizing-addon3"><i class="glyphicon glyphicon-phone"></i> </span>
+                    <input type="text" class="form-control" placeholder="phone" aria-describedby="sizing-addon2">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon" id="sizing-addon4"><i class="glyphicon glyphicon-envelope"></i> </span>
+                    <input type="text" class="form-control" placeholder="message" aria-describedby="sizing-addon4">
+                </div>
+                <br>
+                <br>
+                <p>
+
+                </p>
+                <br>
+                <button class="btn btn-primary" type="submit" form=""><i class="glyphicon glyphicon-send"></i> Send</button>
+            </div>
+            <div class="col-xs-6 col-md-6">
+                <div class="well text-center">
+                    <h3>Want to get in touch with me? Be it to <br>request more info about myself or my <br>experience, to ask for my resume, tips on <br>
+                        how to solve your sudoku, random <br>questions about the universe and the <br>
+                        meaning of life, or even if only for some <br>nice Fika here in stunning Toronto... just <br>feel free to drop me a line anytime.</h3><br><br>
+                    <h2>I promise to reply A.S.A.P.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--
   <h3 class="text-primary text-center">jQuery Playground</h3>
   <div class="row">

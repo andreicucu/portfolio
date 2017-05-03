@@ -1,10 +1,25 @@
 a {
-    color: green;
+    font-size: 20px;
     font-family: Monospace;
+}
+
+#logo-text {
+    font-family: Lobster;
+    color: #00b386;
+    letter-spacing: 5px;
+    font-size: 33px;
+    padding-top: 2px
+    padding-bottom: 2px;
+    padding-left: 5px;
 }
 
 #headshot {
     border-radius: 50%;
     border: 3px solid;
     border-color: #FF0055
+}
+
+#section-header {
+    font-family: Bitter;
+    letter-spacing: 5px;
 }
