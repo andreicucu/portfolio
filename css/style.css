@@ -1,4 +1,10 @@
-#target6 {
+a {
     color: green;
     font-family: Monospace;
+}
+
+#headshot {
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FF0055
 }
