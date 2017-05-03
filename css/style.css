@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 a {
     font-size: 20px;
     font-family: Monospace;
@@ -15,11 +19,21 @@ a {
 
 #headshot {
     border-radius: 50%;
-    border: 3px solid;
-    border-color: #FF0055
+    border: 1px solid;
+    border-color: black;
+    height: 200px;
+    width: 200px;
 }
 
 #section-header {
     font-family: Bitter;
     letter-spacing: 5px;
+}
+
+.section {
+    background-color: #ffcc99;
+}
+
+.front {
+    background-color: #d1e0e0;
 }

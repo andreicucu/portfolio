@@ -1,5 +1,7 @@
-  $(document).ready(function() {
-    $("button").addClass("animated bounce");
-    $(".well").addClass("animated shake");
-$("#target3").addClass("animated fadeOut");
-  });
+$('body').scrollspy({ target: '#navi-bar' });
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh');
+});
+$('#myScrollspy').on('activate.bs.scrollspy', function () {
+  $('#portfoliobtn').addClass('active');
+})
