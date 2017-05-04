@@ -37,3 +37,12 @@ a {
 .front {
     background-color: #d1e0e0;
 }
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icon:hover {
+    opacity: 0.4;
+}
